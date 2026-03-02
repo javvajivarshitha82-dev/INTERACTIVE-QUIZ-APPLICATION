@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, white, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: slategray;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color:whitesmoke;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid,black;
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.option-btn:hover {
+    background-color:white;
+}
+
+.correct {
+    background-color: lightgreen !important;
+    color: white;
+}
+
+.wrong {
+    background-color: #aa1636 !important;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+/* Certificate Button */
+#certificate-btn {
+    margin-top: 15px;
+    background-color: green;
+}
